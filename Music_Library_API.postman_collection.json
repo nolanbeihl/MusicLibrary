@@ -154,7 +154,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/music/6/",
+					"raw": "http://127.0.0.1:8000/music/5",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -165,10 +165,18 @@
 					"port": "8000",
 					"path": [
 						"music",
-						"6",
-						""
+						"5"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "Like_A_Song",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
 			},
 			"response": []
 		}
